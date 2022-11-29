@@ -216,6 +216,7 @@
     .frelanser>div>div:first-child>a {
         width: 50%;
         margin-top: -20px;
+        margin-left: 12px;
     }
 
     .frelanser>div>div:nth-child(2) {
@@ -627,6 +628,8 @@
     .best.services {
         width: 100%;
         min-height: 100vh;
+        box-sizing: border-box;
+        margin-top: 14px;
     }
 
     .best.services>div:first-child {
@@ -669,7 +672,7 @@
     .best.services>div:nth-child(2)>div:first-child {
         width: 100%;
         height: 33vh;
-
+        gap: 35px;
     }
 
     .best.services>div:nth-child(2)>div:nth-child(2) {
@@ -774,7 +777,7 @@
     .Creative.Work {
         width: 100%;
         height: 135 vh;
-        margin-top: 115vh;
+        margin-top: 140vh;
     }
 
     .Creative.Work>h4 {
@@ -797,7 +800,7 @@
     }
 
     .Creative.Work>.card>p:first-child {
-        margin-top: 20px;
+        margin-top: 50px;
         line-height: 20px;
     }
 
@@ -1074,6 +1077,7 @@
         width: 100%;
         height: 90vh;
         flex-direction: column;
+        margin-top: 20px;
     }
 
     .card_div>div:first-child {
@@ -1157,7 +1161,8 @@
     .Subscribe.Now {
         width: 100%;
         height: 50vh;
-        margin-top: 130px;
+        margin-top: 280px;
+        border-radius: 10px;
     }
 
     .Subscribe.Now>h4 {
@@ -1361,6 +1366,7 @@ footer>p {
     footer {
         width: 100%;
         height: 150vh;
+        margin-top: 10px;
     }
 
     footer>div:first-child {
@@ -1405,6 +1411,6 @@ footer>p {
     }
 
     footer>div:nth-child(2) {
-        margin-top: 300px;
+        margin-top: 330px;
     }
 }
